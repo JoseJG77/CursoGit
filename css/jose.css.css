@@ -1,0 +1,190 @@
+#titulo{
+    color:blueviolet;
+}
+
+p.especial{
+    color:rgb(235, 18, 170);
+}
+
+p.texto{
+    color:rgb(18, 235, 83);
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2, div h3 {
+    color:brown;
+}
+
+* {
+    font-size: 24px;
+    /* color:black; */
+}
+/*
+.color {
+    color: #ff0000
+}
+*/
+
+/* 
+.color {
+    color:rgb(0, 255, 255);
+}
+*/
+.color{
+    /* border: 5px rgb(14, 28, 156) ridge; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+    */
+    border-style: solid ;
+    border-color: blueviolet;
+    border-radius: 5px;
+    border-width: 2rem;
+
+
+}
+ #fondo{
+    background-color: rgba(256,0,0);
+    /* opacity: 0.3; */
+    height: 200px;
+  /*   background-image: url("Manu.png");
+    background-size: 200px 200px ;
+    background-repeat: no-repeat;
+    background-position: center c; */
+    background: #f00 url("Manu.png") repeat-y center bottom /100px 100px ;
+
+   
+ }
+
+ .margen {
+    background-color: chocolate;
+    margin: 15px 20px 25px 30px; 
+    padding: 30px 25px 20px 50px ;
+    border: solid 1px black;
+    height: 200px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+ }
+
+ .texto {
+    font-family: 'Poor Story', sans-serif;
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 5px aqua;
+ }
+
+ a:link {
+    color:blueviolet;
+ }
+
+ a:visited {
+    color:gray;
+ }
+ a:hover {
+    color: yellow;
+ }
+
+ a:active {
+    color:red;
+ }
+
+ ul {
+    background-color: cyan;
+    list-style-type: none;
+    padding-left: 0;
+    /* list-style-position: inside; */
+ }
+
+ table {
+    width: 100%;
+    border-collapse: collapse;
+ }
+
+ th, td {
+    border: solid 1px #ee0;
+    padding: 5px;
+ }
+
+ th {
+    background-color: tomato;
+    color:white;
+    text-align: left;
+ }
+ tr:nth-child(even){
+    background-color: #eee;
+ }
+
+ tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+ }
+span {
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    max-width: 900px;
+    background-color: #f00;
+}
+.inline {
+    display: inline;
+}
+#position {
+    /* position: relative; */
+    /* position: fixed; */
+    /* position: absolute; */
+    position: sticky;
+    left:20px;
+    top:25px;
+}
+
+.left {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.right {
+    float: right;
+}
+
+.container {
+    height: 300px;
+}
+
+/* .card { 
+    border: solid 0px #ddd;
+    border-radius: 5px;
+    margin: 0 ;
+    padding: 10px 0;
+    width: 33%;
+} */
+.column {
+    margin: 0 ;
+    padding: 10px 0;
+    width: 33%;
+}
+
+.inline-block {
+    display: inline-block;
+    height: 55px;
+    background-color: #f00;
+}
+
+.center {
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+    padding: 50px 0 ;
+}
